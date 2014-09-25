@@ -11,15 +11,15 @@ def hey ( phrase ):
 
     # Someone's Excited
     if (    re.search( '[a-z]' , phrase ) == None
-        and re.search( '[A-Z]+' , phrase ) != None ):
+        and re.search( '[A-Z]+' , phrase ) ):
         return  "Whoa, chill out!"
 
     # Was That A Question?
-    if re.search( '\?$' , phrase ) != None:
+    if re.search( '\?$' , phrase ):
         return  "Sure.";
 
     # Did I Hear Something?
-    if re.search( '^\s*$' , phrase ) != None:
+    if re.search( '^\s*$' , phrase ):
         return  "Fine. Be that way!"
 
     # When In Doubt
