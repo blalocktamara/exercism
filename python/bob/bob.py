@@ -1,25 +1,17 @@
 # -*- coding: utf-8 -*-
 
-# Use Regular Expressions
-import re
-
 # I reply to phrases
 def hey ( phrase ):
-    # Edge Case: Bad Unit Test
-    if re.search( '\xdcML\xe4\xdcTS!' , phrase ):
-        return  "Whatever."
-
     # Someone's Excited
-    if (    re.search( '[a-z]' , phrase ) == None
-        and re.search( '[A-Z]+' , phrase ) ):
+    if phrase.isupper():
         return  "Whoa, chill out!"
 
     # Was That A Question?
-    if re.search( '\?$' , phrase ):
+    if phrase.endswith( '?' ):
         return  "Sure.";
 
     # Did I Hear Something?
-    if re.search( '^\s*$' , phrase ):
+    if len( phrase.strip() ) == 0:
         return  "Fine. Be that way!"
 
     # When In Doubt

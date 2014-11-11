@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="/Users/orangexception/exercism/csharp/hamming/output/Hamming.dll" total="6" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-11-10" time="23:09:46">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.1433" os-version="Unix 13.4.0.0" platform="Unix" cwd="/Users/orangexception/exercism/csharp/hamming" machine-name="BRADLEYs-MacBook-Pro.local" user="orangexception" user-domain="BRADLEYs-MacBook-Pro.local" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="/Users/orangexception/exercism/csharp/hamming/output/Hamming.dll" executed="True" result="Success" success="True" time="0.029" asserts="0">
+    <results>
+      <test-suite type="TestFixture" name="HammingTest" executed="True" result="Success" success="True" time="0.023" asserts="0">
+        <results>
+          <test-case name="HammingTest.Complete_hamming_distance_in_small_strand" executed="True" result="Success" success="True" time="0.011" asserts="1" />
+          <test-case name="HammingTest.Hamming_distance_is_off_by_one_strand" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="HammingTest.Larger_distance" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="HammingTest.No_difference_between_empty_strands" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="HammingTest.No_difference_between_identical_strands" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="HammingTest.Smalling_hamming_distance_in_middle_somewhere" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="/Users/orangexception/exercism/csharp/word-count/output/Phrase.dll" total="11" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-11-11" time="10:11:15">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.1433" os-version="Unix 13.4.0.0" platform="Unix" cwd="/Users/orangexception/exercism/csharp/word-count" machine-name="BRADLEYs-MacBook-Pro.local" user="orangexception" user-domain="BRADLEYs-MacBook-Pro.local" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="/Users/orangexception/exercism/csharp/word-count/output/Phrase.dll" executed="True" result="Success" success="True" time="0.067" asserts="0">
+    <results>
+      <test-suite type="TestFixture" name="WordCountTest" executed="True" result="Success" success="True" time="0.060" asserts="0">
+        <results>
+          <test-case name="WordCountTest.Count_everything_just_once" executed="True" result="Success" success="True" time="0.038" asserts="1" />
+          <test-case name="WordCountTest.Count_multiple_occurrences" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="WordCountTest.Count_one_of_each" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="WordCountTest.Count_one_word" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="WordCountTest.Handles_cramped_list" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="WordCountTest.Ignore_punctuation" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="WordCountTest.Include_numbers" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="WordCountTest.Normalize_case" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="WordCountTest.With_apostrophes" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="WordCountTest.With_apostrophes_as_quotes" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="WordCountTest.With_free_standing_apostrophes" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
