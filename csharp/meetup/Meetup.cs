@@ -6,11 +6,6 @@ public class Meetup
 	public int Month;
 	public int Year;
 
-	public static void Main ()
-	{
-		Console.WriteLine(new Meetup(11, 2014).Day(DayOfWeek.Monday, Schedule.Last));
-	}
-
 	public Meetup ()
 	{
 
@@ -29,20 +24,6 @@ public class Meetup
 		int resultDay = (int)result.DayOfWeek;
 		int modifierDay = (int)dayOfWeek;
 
-		if(modifier.Equals(Schedule.Last))
-		{
-			result = result.AddMonths(1).AddDays(-1);
-			resultDay = (int)result.DayOfWeek;
-
-			if(modifierDay > resultDay)
-			{
-				return result.AddDays((7 + resultDay - modifierDay) * -1);
-			}
-
-			return result.AddDays((resultDay - modifierDay) * -1);
-		}
-
-
 		if(modifier.Equals(Schedule.Second))
 		{
 			result = result.AddDays(7);
@@ -58,7 +39,11 @@ public class Meetup
 		else if(modifier.Equals(Schedule.Fourth))
 		{
 			result = result.AddDays(21);
-
+		}
+		else if(modifier.Equals(Schedule.Last))
+		{
+			result = result.AddMonths(1).AddDays(-7);
+			resultDay = (int)result.DayOfWeek;
 		}
 
 		resultDay = (int)result.DayOfWeek;
