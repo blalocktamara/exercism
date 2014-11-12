@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="/Users/orangexception/exercism/csharp/prime-factors/output/PrimeFactors.dll" total="11" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-11-12" time="14:18:22">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.1433" os-version="Unix 13.4.0.0" platform="Unix" cwd="/Users/orangexception/exercism/csharp/prime-factors" machine-name="BRADLEYs-MacBook-Pro.local" user="orangexception" user-domain="BRADLEYs-MacBook-Pro.local" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="/Users/orangexception/exercism/csharp/prime-factors/output/PrimeFactors.dll" executed="True" result="Success" success="True" time="0.064" asserts="0">
+    <results>
+      <test-suite type="TestFixture" name="PrimeFactorsTest" executed="True" result="Success" success="True" time="0.057" asserts="0">
+        <results>
+          <test-case name="PrimeFactorsTest.Test_1" executed="True" result="Success" success="True" time="0.010" asserts="1" />
+          <test-case name="PrimeFactorsTest.Test_2" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+          <test-case name="PrimeFactorsTest.Test_27" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="PrimeFactorsTest.Test_3" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="PrimeFactorsTest.Test_4" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="PrimeFactorsTest.Test_6" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="PrimeFactorsTest.Test_625" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="PrimeFactorsTest.Test_8" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="PrimeFactorsTest.Test_9" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="PrimeFactorsTest.Test_901255" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="PrimeFactorsTest.Test_93819012551" executed="True" result="Success" success="True" time="0.025" asserts="1" />
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
