@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="/Users/orangexception/exercism/csharp/triangle/output/Triangle.dll" total="15" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-11-12" time="10:05:55">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.1433" os-version="Unix 13.4.0.0" platform="Unix" cwd="/Users/orangexception/exercism/csharp/triangle" machine-name="BRADLEYs-MacBook-Pro.local" user="orangexception" user-domain="BRADLEYs-MacBook-Pro.local" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="/Users/orangexception/exercism/csharp/triangle/output/Triangle.dll" executed="True" result="Success" success="True" time="0.040" asserts="0">
+    <results>
+      <test-suite type="TestFixture" name="TriangleTest" executed="True" result="Success" success="True" time="0.034" asserts="0">
+        <results>
+          <test-case name="TriangleTest.Equilateral_triangles_have_equal_sides" executed="True" result="Success" success="True" time="0.012" asserts="1" />
+          <test-case name="TriangleTest.Isosceles_triangles_have_first_and_last_sides_equal" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="TriangleTest.Isosceles_triangles_have_in_fact_exactly_two_sides_equal" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="TriangleTest.Isosceles_triangles_have_last_two_sides_equal" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="TriangleTest.Isosceles_triangles_have_two_first_sides_equal" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="TriangleTest.Larger_equilateral_triangles_also_have_equal_sides" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="TriangleTest.Scalene_triangles_have_no_equal_sides" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="TriangleTest.Scalene_triangles_have_no_equal_sides_at_a_larger_scale_too" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="TriangleTest.Scalene_triangles_have_no_equal_sides_in_descending_order_either" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="TriangleTest.Triangles_violating_triangle_inequality_are_illegal" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+          <test-case name="TriangleTest.Triangles_violating_triangle_inequality_are_illegal_2" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="TriangleTest.Triangles_violating_triangle_inequality_are_illegal_3" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="TriangleTest.Triangles_with_negative_sides_are_illegal" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="TriangleTest.Triangles_with_no_size_are_illegal" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+          <test-case name="TriangleTest.Very_small_triangles_are_legal" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
