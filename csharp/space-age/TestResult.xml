@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="/Users/orangexception/exercism/csharp/space-age/output/SpaceAge.dll" total="9" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-11-12" time="09:10:58">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.1433" os-version="Unix 13.4.0.0" platform="Unix" cwd="/Users/orangexception/exercism/csharp/space-age" machine-name="BRADLEYs-MacBook-Pro.local" user="orangexception" user-domain="BRADLEYs-MacBook-Pro.local" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="/Users/orangexception/exercism/csharp/space-age/output/SpaceAge.dll" executed="True" result="Success" success="True" time="0.034" asserts="0">
+    <results>
+      <test-suite type="TestFixture" name="SpaceAgeTest" executed="True" result="Success" success="True" time="0.029" asserts="0">
+        <results>
+          <test-case name="SpaceAgeTest.Age_in_seconds" executed="True" result="Success" success="True" time="0.011" asserts="1" />
+          <test-case name="SpaceAgeTest.Age_on_earth" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+          <test-case name="SpaceAgeTest.Age_on_jupiter" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+          <test-case name="SpaceAgeTest.Age_on_mars" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+          <test-case name="SpaceAgeTest.Age_on_mercury" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+          <test-case name="SpaceAgeTest.Age_on_neptune" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+          <test-case name="SpaceAgeTest.Age_on_saturn" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+          <test-case name="SpaceAgeTest.Age_on_uranus" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+          <test-case name="SpaceAgeTest.Age_on_venus" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
