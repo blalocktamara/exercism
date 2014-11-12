@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="/Users/orangexception/exercism/csharp/raindrops/output/Raindrops.dll" total="16" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-11-12" time="15:22:16">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.1433" os-version="Unix 13.4.0.0" platform="Unix" cwd="/Users/orangexception/exercism/csharp/raindrops" machine-name="BRADLEYs-MacBook-Pro.local" user="orangexception" user-domain="BRADLEYs-MacBook-Pro.local" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="/Users/orangexception/exercism/csharp/raindrops/output/Raindrops.dll" executed="True" result="Success" success="True" time="0.047" asserts="0">
+    <results>
+      <test-suite type="TestFixture" name="RaindropsTest" executed="True" result="Success" success="True" time="0.040" asserts="0">
+        <results>
+          <test-suite type="ParameterizedTest" name="Non_primes_pass_through" executed="True" result="Success" success="True" time="0.019" asserts="0">
+            <results>
+              <test-case name="RaindropsTest.Non_primes_pass_through(12121)" executed="True" result="Success" success="True" time="0.010" asserts="1" />
+              <test-case name="RaindropsTest.Non_primes_pass_through(52)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="RaindropsTest.Non_primes_pass_through(1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite type="ParameterizedTest" name="Numbers_containing_3_as_a_prime_factor_give_pling" executed="True" result="Success" success="True" time="0.003" asserts="0">
+            <results>
+              <test-case name="RaindropsTest.Numbers_containing_3_as_a_prime_factor_give_pling(9)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="RaindropsTest.Numbers_containing_3_as_a_prime_factor_give_pling(6)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="RaindropsTest.Numbers_containing_3_as_a_prime_factor_give_pling(3)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite type="ParameterizedTest" name="Numbers_containing_5_as_a_prime_factor_give_plang" executed="True" result="Success" success="True" time="0.003" asserts="0">
+            <results>
+              <test-case name="RaindropsTest.Numbers_containing_5_as_a_prime_factor_give_plang(25)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="RaindropsTest.Numbers_containing_5_as_a_prime_factor_give_plang(10)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="RaindropsTest.Numbers_containing_5_as_a_prime_factor_give_plang(5)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite type="ParameterizedTest" name="Numbers_containing_7_as_a_prime_factor_give_plong" executed="True" result="Success" success="True" time="0.003" asserts="0">
+            <results>
+              <test-case name="RaindropsTest.Numbers_containing_7_as_a_prime_factor_give_plong(49)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="RaindropsTest.Numbers_containing_7_as_a_prime_factor_give_plong(14)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="RaindropsTest.Numbers_containing_7_as_a_prime_factor_give_plong(7)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite type="ParameterizedTest" name="Numbers_containing_multiple_prime_factors_give_all_results_concatenated" executed="True" result="Success" success="True" time="0.003" asserts="0">
+            <results>
+              <test-case name="RaindropsTest.Numbers_containing_multiple_prime_factors_give_all_results_concatenated(105)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="RaindropsTest.Numbers_containing_multiple_prime_factors_give_all_results_concatenated(35)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="RaindropsTest.Numbers_containing_multiple_prime_factors_give_all_results_concatenated(21)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="RaindropsTest.Numbers_containing_multiple_prime_factors_give_all_results_concatenated(15)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
