@@ -7,7 +7,7 @@ public class Binary
 		get { return source; }
 		set
 		{
-			foreach (char character in value.ToCharArray())
+			foreach (char character in value)
 			{
 				if(character != '0'
 				&& character != '1')

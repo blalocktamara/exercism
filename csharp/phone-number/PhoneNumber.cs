@@ -8,7 +8,7 @@ public class PhoneNumber
         get { return number; }
         set
         {
-            foreach (char digit in value.ToCharArray())
+            foreach (char digit in value)
             {
                 if(Char.IsNumber(digit))
                 {

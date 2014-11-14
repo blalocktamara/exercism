@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="/Users/orangexception/exercism/csharp/binary/output/Binary.dll" total="14" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-11-12" time="13:47:51">
+<test-results name="/Users/orangexception/exercism/csharp/binary/output/Binary.dll" total="14" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-11-13" time="21:23:40">
   <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.1433" os-version="Unix 13.4.0.0" platform="Unix" cwd="/Users/orangexception/exercism/csharp/binary" machine-name="BRADLEYs-MacBook-Pro.local" user="orangexception" user-domain="BRADLEYs-MacBook-Pro.local" />
   <culture-info current-culture="en-US" current-uiculture="en-US" />
-  <test-suite type="Assembly" name="/Users/orangexception/exercism/csharp/binary/output/Binary.dll" executed="True" result="Success" success="True" time="0.042" asserts="0">
+  <test-suite type="Assembly" name="/Users/orangexception/exercism/csharp/binary/output/Binary.dll" executed="True" result="Success" success="True" time="0.044" asserts="0">
     <results>
-      <test-suite type="TestFixture" name="BinaryTest" executed="True" result="Success" success="True" time="0.035" asserts="0">
+      <test-suite type="TestFixture" name="BinaryTest" executed="True" result="Success" success="True" time="0.037" asserts="0">
         <results>
           <test-case name="BinaryTest.Binary_can_convert_formatted_strings" executed="True" result="Success" success="True" time="0.011" asserts="1" />
-          <test-suite type="ParameterizedTest" name="Binary_converts_to_decimal" executed="True" result="Success" success="True" time="0.006" asserts="0">
+          <test-suite type="ParameterizedTest" name="Binary_converts_to_decimal" executed="True" result="Success" success="True" time="0.008" asserts="0">
             <results>
               <test-case name="BinaryTest.Binary_converts_to_decimal(&quot;10001101000&quot;)" executed="True" result="Success" success="True" time="0.001" asserts="1" />
               <test-case name="BinaryTest.Binary_converts_to_decimal(&quot;11010&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
@@ -19,9 +19,9 @@
               <test-case name="BinaryTest.Binary_converts_to_decimal(&quot;1&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
             </results>
           </test-suite>
-          <test-suite type="ParameterizedTest" name="Invalid_binary_is_decimal_0" executed="True" result="Success" success="True" time="0.006" asserts="0">
+          <test-suite type="ParameterizedTest" name="Invalid_binary_is_decimal_0" executed="True" result="Success" success="True" time="0.005" asserts="0">
             <results>
-              <test-case name="BinaryTest.Invalid_binary_is_decimal_0(&quot;abc10z&quot;)" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="BinaryTest.Invalid_binary_is_decimal_0(&quot;abc10z&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
               <test-case name="BinaryTest.Invalid_binary_is_decimal_0(&quot;134678&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
               <test-case name="BinaryTest.Invalid_binary_is_decimal_0(&quot;9&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
               <test-case name="BinaryTest.Invalid_binary_is_decimal_0(&quot;5&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />

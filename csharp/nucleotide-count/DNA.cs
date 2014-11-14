@@ -43,7 +43,7 @@ public class DNA
     {
         NucleotideCounts = new Dictionary<char, int> { { 'A', 0 }, { 'T', 0 }, { 'C', 0 }, { 'G', 0 } };
 
-        foreach (char nucleotide in Nucleotides.ToCharArray())
+        foreach (char nucleotide in Nucleotides)
         {
             NucleotideCounts[nucleotide]++;
 

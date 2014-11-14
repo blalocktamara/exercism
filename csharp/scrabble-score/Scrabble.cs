@@ -48,7 +48,7 @@ public class Scrabble
 
 		letters = letters ?? "";
 
-		foreach (char letter in letters.ToUpper().ToCharArray())
+		foreach (char letter in letters.ToUpper())
 		{
 			LetterValues.TryGetValue(letter, out score);
 			result += score;
